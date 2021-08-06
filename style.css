@@ -1,0 +1,41 @@
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/cards.css"); 
+@import url("components/box.css");
+
+
+body{ 
+   font-family: 'Lato', serif;
+   font-size: 18px;
+   margin: 0px;
+   color: #433520;
+} 
+
+h1, h2, h3, {
+	font-family: 'Roboto', serif;
+	font-weight: bold;
+}
+
+p{
+	font-family: 'Roboto', sans-serif;
+	font-weight: lighter;
+	font-size: 14px;
+}
+
+a{
+	text-decoration: none;
+}
+
+.column{
+  display: flex;
+  justify-content: center;
+
+}
+
+#column1{
+  padding-right: 85px;
+
+}
